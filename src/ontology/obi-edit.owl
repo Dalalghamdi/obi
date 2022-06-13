@@ -22072,6 +22072,74 @@ b) that the amount of analyte/measurand detected is over some predetermined thre
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0003405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion based on data representing a variant’s significance in relation to a disease or phenotype.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
+        <obo:IAO_0000118>clinical variant impact</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID: 24033266</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">clinical variant interpretation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003405"/>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant previously classified or reported as a recognized neutral variant</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">benign variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003405"/>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously unreported and is probably not causative of disease</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">likely benign variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003405"/>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which is expected to cause the disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">likely pathogenic variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003405"/>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously reported and is a recognized cause of the disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">pathogenic variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003405"/>
+        <obo:IAO_0000115>A clinical variant interpretation that represents a sequence variant that is previously unreported and is of the type which may or may not be causative of the disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia Alghamdi</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">variant of unknown significance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0005246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0005246">
@@ -33041,7 +33109,6 @@ realizes some &apos;host of immune response role&apos;</obo:IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/UO_0000282 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000282"/>
-    
     
 
 
